@@ -5,3 +5,4 @@ a script that compiles a c file and creates executable
  a c file that prints using the function puts
 a function that prints with printf
 using sizeof to print variable sizes
+a script that saves assembled codes
