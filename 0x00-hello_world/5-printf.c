@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 /**
- * main: entry point
+ * main- entry point
  * Description: c program that prints with printf
  * Return: always return 0
 */
