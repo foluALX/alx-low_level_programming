@@ -2,7 +2,9 @@
 
 /**
  * main- main block
- * description- program that prints using the function .puts
+ *
+ * Description: program that prints using the function .puts
+ * 
  * return- returns 0
 */
 
