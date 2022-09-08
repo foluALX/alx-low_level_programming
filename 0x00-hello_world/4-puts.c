@@ -2,8 +2,8 @@
 
 /*
  * main- main block
- * prints using the function .puts
- * returns 0
+ * description- program that prints using the function .puts
+ * return- returns 0
 */
 
 int main(void)
