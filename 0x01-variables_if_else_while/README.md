@@ -9,3 +9,4 @@ a program to print alphabet in reverse
 print base16
 print numbers seperated by comma and whitespace
 a program that prints all possible different combinations of two digits
+a program that prints all possible different combinations of three digits
