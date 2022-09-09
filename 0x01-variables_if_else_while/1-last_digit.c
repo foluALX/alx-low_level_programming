@@ -22,17 +22,17 @@ int main(void)
 
 	if (digit > 5)
 	{
-		printf("%d %i is %i and is greater than 5\n", last, n, digit);
+		printf("%s %i is %i and is greater than 5\n", last, n, digit);
 	}
 
 	else if (digit == 0)
 	{
-		printf("%d %i is %i and is 0\n", last, n, digit);
+		printf("%s %i is %i and is 0\n", last, n, digit);
 	}
 
 	else
 	{
-		printf("%d %i is %i and is less than 6 and not 0\n", last, n, digit);
+		printf("%s %i is %i and is less than 6 and not 0\n", last, n, digit);
 	}
 
 	return (0);
