@@ -6,3 +6,4 @@ a script that compiles a c file and creates executable
 a function that prints with printf
 using sizeof to print variable sizes
 a script that saves assembled codes
+c program that prints to the standard error
