@@ -3,3 +3,4 @@ This program will assign a random number to the variable n each time it is execu
 a program that prints alphabets in lowercase using putchar
 program to print alphabets in both lower and uppercase
 print all alphabets except e and q
+print numbers from 0 to 9
