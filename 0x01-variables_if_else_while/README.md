@@ -5,3 +5,4 @@ program to print alphabets in both lower and uppercase
 print all alphabets except e and q
 print numbers from 0 to 9
 print numbers with putchar
+a program to print alphabet in reverse
