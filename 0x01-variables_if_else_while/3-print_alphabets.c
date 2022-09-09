@@ -9,6 +9,7 @@
 int main(void)
 {
 	char alpha = 'a';
+	char alpha_1 = 'A';
 
 	/*print in lowercase */
 	while (alpha <= 'z')
@@ -18,10 +19,10 @@ int main(void)
 	}
 
 	/* print uppercase */
-	while (alpha <= 'z')
+	while (alpha_1 <= 'Z')
 	{
-		putchar(alpha + 32);
-		alpha++;
+		putchar(alpha_1);
+		alpha_1++;
 	}
 	putchar('\n');
 
