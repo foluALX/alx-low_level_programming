@@ -7,3 +7,4 @@ print numbers from 0 to 9
 print numbers with putchar
 a program to print alphabet in reverse
 print base16
+print numbers seperated by comma and whitespace
