@@ -4,3 +4,4 @@ a program to print a-z ten times
 a function that checks for lowercase character
 a function that checks for alphabetic character
 a function that prints the sign of a number
+a function that computes the absolute value of an integer
