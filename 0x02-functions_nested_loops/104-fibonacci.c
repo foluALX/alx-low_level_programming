@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * numlength - returns length of string
+ * numLength - returns length of string
  * Description: check for length of string
  * @num: input
  * Return: number of digits
