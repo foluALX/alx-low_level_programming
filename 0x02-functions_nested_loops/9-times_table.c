@@ -24,12 +24,14 @@ void times_table(void)
 			{
 				_putchar(' ');
 			}
-
-			/* get first digit */
-			_putchar(prod + 48);
+			else
+			{
+				/* get first digit */
+				_putchar((prod / 10) + 48);
+			}
 
 			/* get second digit */
-			/* _putchar((prod % 10) + 48); */
+			_putchar((prod % 10) + 48);
 
 			j++;
 		}
