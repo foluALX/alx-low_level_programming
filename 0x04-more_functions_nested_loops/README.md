@@ -7,3 +7,4 @@ a function that prints the numbers, from 0 to 9
 a function that draws a straight line in the terminal
 a function that draws a diagonal line on the terminal
 a function that prints a square, followed by a new line
+ a program that prints the numbers from 1 to 100
