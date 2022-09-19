@@ -8,3 +8,4 @@ a function that prints every other character of a string, starting with the firs
 a function that prints half of a string, followed by a new line
 a function that prints n elements of an array of integers, followed by a new line
 copies a string from one pointer to another
+converests a string to an integer
