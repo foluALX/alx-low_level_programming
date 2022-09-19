@@ -10,25 +10,18 @@
 
 int main(void)
 {
-	int i = j = k = 0;
-	time_t t;
+	int i;
+	char c;
 
-	srand((unsigned int) time(&t));
+	srand(time(0));
 
-	while (j < 2772)
+	while (i <= 2645)
 	{
-		i = rand() % 128;
-
-		if ((j + i) > 2772)
-		{
-			break;
-		}
-
-		j += i;
-		k++;
-		printf("%c", i);
+		c = rand() % 128;
+		i += c;
+		putchar(c);
 	}
-	printf("%c\n", (2772 - j));
+	putchar(2772 - i);
 
 	return (0);
 }
