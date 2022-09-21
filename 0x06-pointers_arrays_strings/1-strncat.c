@@ -33,7 +33,7 @@ char *_strncat(char *dest, char *src, int n)
 	}
 
 	/* null terminate dest */
-	dest[dest_len + i] = '\0';
+	dest[dest_len++] = '\0';
 
 	return (dest);
 }
