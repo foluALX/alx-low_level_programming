@@ -10,12 +10,14 @@
 
 char *_strncat(char *dest, char *src, int n)
 {
-	int dest_len = i = 0;
+	int dest_len, i;
 
 	if (n <= 0)
 	{
 		return (dest);
 	}
+
+	dest_len = 0;
 
 	/* length of dest */
 	while (dest[dest_len] != '\0')
@@ -27,7 +29,7 @@ char *_strncat(char *dest, char *src, int n)
 	 * src does not need to be null terminated
 	 * if it contains n or more bytes
 	*/
-	for (; i < n && src[i] != '\0'; i++)
+	for (i = 0; i < n && src[i] != '\0'; i++)
 	{
 		dest[dest_len + i] = src[i];
 	}
