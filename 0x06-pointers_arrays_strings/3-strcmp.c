@@ -23,15 +23,15 @@ int _strcmp(char *s1, char *s2)
 		if (s1[i] != s2[i])
 		{
 			/* return the diff btw the 2 characters */
-			r = s1[i] - s2[i];
+			j = s1[i] - s2[i];
 			break;
 		}
 		else
 		{
-			r = s1[i] - s2[i];
+			j = s1[i] - s2[i];
 		}
 		i++;
 	}
 
-	return (r);
+	return (j);
 }
