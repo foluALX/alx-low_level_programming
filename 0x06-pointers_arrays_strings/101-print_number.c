@@ -1,4 +1,5 @@
-nclude "main.h"
+#include "main.h"
+#include <stdlib.h>
 
 /**
  * print_number - prints an integer
@@ -8,7 +9,7 @@ nclude "main.h"
 
 void print_number(int n)
 {
-	int num;
+	unsigned int num;
 
 	if (n < 0)
 	{
