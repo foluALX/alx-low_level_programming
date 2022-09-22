@@ -1,24 +1,6 @@
 #include "main.h"
 
 /**
- * _strlen - calculate string length
- * @a: string
- * Return: length of string
-*/
-
-int _strlen(char *a)
-{
-	int i = 0;
-
-	while (*a != '\0')
-	{
-		i++, a++;
-	}
-
-	return (i);
-}
-
-/**
  * infinite_add - adds numbers
  * @n1: first string
  * @n2: second string
@@ -29,42 +11,35 @@ int _strlen(char *a)
 
 char *infinite_add(char *n1, char *n2, char *r, int size_r)
 {
-	int k, n2_s, n1_s, m;
+	int i, j, k, l, m, n;
 
-	r[size_r] = '\0';
-	k = 0;
+	for (i = 0; n1[i]; i++)
+		;
+	for (j = 0; n2[j] != '\0'; j++)
+		;
+	if (i > size_r || j > size_r)
+		return (0);
 	m = 0;
-	n1_s = _strlen(n1);
-	n2_s = _strlen(n2);
-	size_r--;
-
-	if (n1_s > size_r || n2_s > size_r || size_r == 0 ||
-			(n1_s == size_r && n2_s == size_r &&
-			 (n1[0] - '0') + (n2[0] - '0') > 9))
-		return (0);
-
-	n1_s--;
-	n2_s--;
-
-	while (n1_s >= 0 || n2_s >= 0)
+	for (i -= 1, j -= 1, k = 0; k < size_r - 1; i--, j--, k++)
 	{
-		if (n1_s < 0)
-			m = n2[n2_s] - '0' + k;
-		else if (n2_s < 0)
-			m = n1[n1_s] - '0' + k;
-		else
-			m = (n1[n1_s] - '0') + (n2[n2_s] - '0') + k;
-
-		r[size_r] = (m % 10) + '0';
-		k = m / 10;
-		n1_s--, n2_s--, size_r--;
+		n = m;
+		if (i >= 0)
+			n += n1[i] - '0';
+		if (j >= 0)
+			n += n2[j] - '0';
+		if (i < 0 && j < 0 && n == 0)
+			break;
+		m = n / 10;
+		r[k] = n % 10 + '0';
 	}
-
-	if (size_r > 0 && (k > 0 && k < 9))
-		r[size_r] = k + '0';
-		return (r + size_r);
-	else if (k == 0)
-		return (r + size_r);
-	else
+	r[k] = '\0';
+	if (i >= 0 || j >= 0 || m)
 		return (0);
+	for (k -= 1, l = 0; l < k; k--, l++)
+	{
+		m = r[k];
+		r[k] = r[l];
+		r[l] = m;
+	}
+	return (r);
 }
