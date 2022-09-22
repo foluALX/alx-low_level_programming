@@ -9,3 +9,4 @@ a function that encodes a string into 1337
 100- a function that encodes a string using rot13
 101- a function that prints an integer
 102- program prints a specified number
+103-a function that adds two numbers
