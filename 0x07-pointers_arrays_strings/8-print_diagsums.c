@@ -11,9 +11,9 @@
 void print_diagsums(int *a, int size)
 {
 	int i, row;
-	int sum0 = sum1 = 0;
+	int sum0 = 0, sum1 = 0;
 
-	for (row = 0; i < size; row++)
+	for (row = 0; row < size; row++)
 	{
 		i = (row * size) + row;
 		sum0 += a[i];
