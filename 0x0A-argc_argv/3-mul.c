@@ -10,7 +10,7 @@
 
 int main(int argc, char *argv[])
 {
-	int n, m, diff;
+	int n, m;
 
 	if (argc != 3)
 	{
@@ -20,9 +20,7 @@ int main(int argc, char *argv[])
 
 	n = atoi(argv[1]);
 	m = atoi(argv[2]);
-	mult = n * m;
-
-	printf("%d\n", mult);
+	printf("%d\n", n * m);
 
 	return (0);
 }
