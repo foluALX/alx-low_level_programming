@@ -22,7 +22,7 @@ int main(int argc, char *argv[])
 	m = atoi(argv[2]);
 	mult = n * m;
 
-	printf("%qi\n", diff);
+	printf("%i\n", mult);
 
 	return (0);
 }
