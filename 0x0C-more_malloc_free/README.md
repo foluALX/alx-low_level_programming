@@ -3,3 +3,4 @@
 2 - function allocates memory for an array of nmemb elements of size bytes each and returns a pointer to the allocated memory
 3 -  function that creates an array of integers
 100 - function that reallocates a memory block using malloc and free
+101 -  a program that multiplies two positive numbers
