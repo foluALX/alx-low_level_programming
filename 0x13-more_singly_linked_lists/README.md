@@ -11,3 +11,4 @@
 10 - function that deletes the node at index index of a listint_t linked list
 100 -  function that reverses a listint_t linked list
 101 - a function that prints a listint_t linked list
+102- function that frees a listint_t list
