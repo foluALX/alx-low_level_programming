@@ -12,3 +12,4 @@
 100 -  function that reverses a listint_t linked list
 101 - a function that prints a listint_t linked list
 102- function that frees a listint_t list
+103- a function that finds the loop in a linked list
