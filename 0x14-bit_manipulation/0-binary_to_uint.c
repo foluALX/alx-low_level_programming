@@ -12,7 +12,7 @@ unsigned int binary_to_uint(const char *b)
 	unsigned int uint, place;
 	int n;
 
-	if (b)
+	if (!b)
 		return (0);
 	for (n = 0; b[n]; n++)
 		;
